@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Shining-Light Investments CC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <img
+        src="./assets/logo/logo.png"
+        alt="Shining-Light Investments logo"
+        onerror="this.style.display='none'"
+      />
+      <div class="nav-logo-text">
+        <span class="top">Shining-Light</span>
+        <span class="sub">Investments CC</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="marula.html">Marula Oil</a></li>
+      <li><a href="clients.html">Clients</a></li>
+      <li><a href="contact.html" class="btn-primary nav-cta" style="font-size:13px;padding:10px 20px;">Contact Us</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- CONTACT -->
+<section id="contact" style="padding-top:140px;">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <div class="gold-bar"></div>
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-heading">Let's work together.</h2>
+        <p style="margin-top:16px;margin-bottom:40px;font-size:15px;color:var(--text-muted);line-height:1.7;">
+          Whether you need a quote, have a project in mind, or want to learn more about our services — we're here to help.
+        </p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.42 2 2 0 0 1 3.6 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Phone</div>
+              <div class="contact-item-value">081 316 8832 / 081 238 8649</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value">shinninglightinvest@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Location</div>
+              <div class="contact-item-value">Stall S3, Windhoek Flea Market<br />P.O. Box 27917, Windhoek</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div>
+              <div class="contact-item-label">Registration</div>
+              <div class="contact-item-value" style="font-size:13px;">Reg. CC/2014/10999 · VAT 6627005<br />Social Sec. 30089079</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3 class="form-title">Send us a message</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service">Service Interested In</label>
+          <select id="service" name="service">
+            <option value="">Select a service…</option>
+            <option>Catering &amp; Restaurant</option>
+            <option>Cleaning Services</option>
+            <option>Construction</option>
+            <option>Marula Oil</option>
+            <option>Animal Ear Tags</option>
+            <option>Tailoring &amp; Crocheting</option>
+            <option>Corporate Goods Supply</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us about your project or enquiry…"></textarea>
+        </div>
+        <button class="btn-primary" type="button" style="width:100%;justify-content:center;" onclick="handleSubmit()">
+          Send Message
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-text">Shining-Light Investments CC</div>
+        <p>
+          A proudly Namibian close corporation delivering quality services across catering, cleaning, construction, production, and more since 2014.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Catering &amp; Restaurant</a></li>
+          <li><a href="services.html">Cleaning Services</a></li>
+          <li><a href="services.html">Animal Ear Tags</a></li>
+          <li><a href="marula.html">Marula Oil</a></li>
+          <li><a href="services.html">Tailoring &amp; Crocheting</a></li>
+          <li><a href="services.html">Construction</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="clients.html">Our Clients</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <h4 style="margin-top:24px;">Contact</h4>
+        <ul>
+          <li><a href="tel:0813168832">081 316 8832</a></li>
+          <li><a href="mailto:shinninglightinvest@gmail.com">shinninglightinvest@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Shining-Light Investments CC. All rights reserved.</p>
+      <div class="reg-info">Reg. CC/2014/10999 · VAT 6627005</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  const hamburger = document.getElementById('hamburger');
+  hamburger.addEventListener('click', () => {
+    const links = document.querySelector('.nav-links');
+    if (!links) return;
+    if (links.style.display === 'flex') {
+      links.style.display = '';
+    } else {
+      links.style.cssText = 'display:flex;flex-direction:column;position:fixed;top:72px;left:0;right:0;background:var(--cream);padding:24px;gap:20px;border-bottom:1px solid var(--border);z-index:99;';
+    }
+  });
+
+  function handleSubmit() {
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const service = document.getElementById('service').value;
+    const message = document.getElementById('message').value.trim();
+    if (!name || !email || !message) {
+      alert('Please fill in your name, email, and message.');
+      return;
+    }
+    const mailtoLink = `mailto:shinninglightinvest@gmail.com?subject=Enquiry: ${encodeURIComponent(service || 'General')}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nService: ${service}\n\n${message}`)}`;
+    window.open(mailtoLink);
+  }
+</script>
+</body>
+</html>
