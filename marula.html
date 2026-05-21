@@ -15,21 +15,18 @@
 <nav id="navbar">
   <div class="nav-inner">
     <a class="nav-logo" href="index.html">
-      <img
-        src="./assets/logo/logo.png"
-        alt="Shining-Light Investments logo"
-        onerror="this.style.display='none'"
-      />
+      <img src="./assets/logo/logo.png" alt="Shining-Light Investments CC" onerror="this.style.display='none'" />
       <div class="nav-logo-text">
         <span class="top">Shining-Light</span>
         <span class="sub">Investments CC</span>
       </div>
     </a>
     <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
       <li><a href="index.html#about">About</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="marula.html">Marula Oil</a></li>
+      <li><a href="marula.html" class="active">Marula Oil</a></li>
       <li><a href="clients.html">Clients</a></li>
       <li><a href="contact.html" class="btn-primary nav-cta" style="font-size:13px;padding:10px 20px;">Contact Us</a></li>
     </ul>
@@ -39,16 +36,19 @@
   </div>
 </nav>
 
-<!-- MARULA OIL SPOTLIGHT -->
-<section id="marula" style="padding-top:140px;">
+<!-- MARULA SPOTLIGHT -->
+<section id="marula" style="padding-top:120px;">
   <div class="container">
     <div class="marula-grid">
       <div>
         <div class="gold-bar"></div>
         <p class="section-label" style="color:rgba(240,196,25,0.7);">Natural Production</p>
-        <h2 class="marula-heading">Pure <em>Marula Oil</em>,<br />straight from nature.</h2>
+        <h1 class="marula-heading">Pure <em>Marula Oil</em>,<br />straight from nature.</h1>
         <p class="marula-desc">
-          We produce cold-pressed Marula oil extracted from Marula kernels — a clear, golden-brown botanical oil packed with antioxidants, essential fatty acids, Vitamin C, and phenolic compounds. 100% natural, proudly Namibian.
+          We produce cold-pressed Marula oil extracted from the kernels of the <em style="font-style:italic;color:rgba(255,255,255,0.9);">Sclerocarya birrea</em> — the Marula tree native to Southern Africa. The result is a clear, golden-brown botanical oil packed with antioxidants, essential fatty acids, Vitamin C, and phenolic compounds. 100% natural, proudly Namibian.
+        </p>
+        <p class="marula-desc" style="margin-bottom:32px;">
+          Our oil is available wholesale for cosmetic manufacturers, food producers, and retailers. We currently supply Tateii Food Producer CC on an ongoing basis and welcome new partnerships.
         </p>
         <div class="marula-uses">
           <div class="marula-use">
@@ -57,7 +57,7 @@
             </div>
             <div>
               <strong>Skin Care</strong>
-              <span>Ideal for oily, acne-prone, dry, and aging skin. Lightweight and non-greasy.</span>
+              <span>Ideal for oily, acne-prone, dry, and aging skin. Lightweight and non-greasy, it absorbs rapidly and leaves no residue. Rich in Oleic and Linoleic acid to restore the skin barrier.</span>
             </div>
           </div>
           <div class="marula-use">
@@ -66,7 +66,7 @@
             </div>
             <div>
               <strong>Hair Treatment</strong>
-              <span>Nourishes root to tip. Hydrating, moisturising, and occlusive — great for dry or frizzy hair.</span>
+              <span>Nourishes root to tip. Hydrating, moisturising, and occlusive — outstanding for dry, frizzy, or chemically treated hair. A few drops of Marula oil dramatically improve lustre and manageability.</span>
             </div>
           </div>
           <div class="marula-use">
@@ -74,29 +74,106 @@
               <svg viewBox="0 0 24 24"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
             </div>
             <div>
-              <strong>Cooking Oil</strong>
-              <span>A delicacy in traditional and modern African recipes. Used to preserve meats for up to a year.</span>
+              <strong>Culinary &amp; Food Use</strong>
+              <span>A delicacy in traditional and modern African cooking. Marula oil has been used for centuries to flavour food and preserve meat for up to a year without refrigeration. High smoke point makes it suitable for frying.</span>
             </div>
           </div>
         </div>
       </div>
       <div class="marula-visual">
-        <div class="marula-bottle-frame">
-          <img
-            src="./assets/images/40915.jpg"
-            style="width:100%;height:100%;object-fit:cover;border-radius:32px;position:relative;z-index:1;"
-            alt="Marula oil product"
-            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-          />
-          <div style="display:none;flex-direction:column;align-items:center;justify-content:center;gap:16px;width:100%;height:100%;position:relative;z-index:1;">
-            <div class="marula-ph-text">Marula Oil<br />Product Photo</div>
-            <div class="marula-ph-sub">Place your product image here</div>
+        <div class="marula-visual-panel">
+          <div class="marula-panel-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-6.88 17.3C6.39 20.6 8.06 22 12 22s5.61-1.4 6.88-2.7A10 10 0 0 0 12 2z"/><path d="M12 6v6l4 2"/></svg>
           </div>
+          <div class="marula-panel-name">Marula<br />Oil</div>
+          <div class="marula-panel-sub">100% Cold-Pressed · Namibian</div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- PRODUCTION PROCESS -->
+<section class="marula-process">
+  <div class="container">
+    <div class="gold-bar"></div>
+    <p class="section-label">How It's Made</p>
+    <h2 class="section-heading">Our production process.</h2>
+    <p style="margin-top:16px;font-size:15px;color:var(--text-muted);line-height:1.7;max-width:560px;">
+      Every bottle of Shining-Light Marula Oil follows a careful, traditional cold-press process to preserve all the natural nutrients and beneficial compounds.
+    </p>
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="process-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <div class="process-title">Harvesting</div>
+        <div class="process-desc">Ripe Marula fruits are collected from wild trees in the Namibian bush after they have naturally fallen. Only mature, undamaged fruit is selected.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </div>
+        <div class="process-title">Kernel Extraction</div>
+        <div class="process-desc">The outer flesh is removed and the hard inner nut is cracked open by hand to reveal the white kernel inside — the source of the oil.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-icon">
+          <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+        </div>
+        <div class="process-title">Cold Pressing</div>
+        <div class="process-desc">Dried kernels are cold-pressed without heat or chemical solvents. This preserves all antioxidants, fatty acids, and Vitamin C in their natural state.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-icon">
+          <svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        </div>
+        <div class="process-title">Filtering &amp; Quality Check</div>
+        <div class="process-desc">The raw oil is carefully filtered to remove any sediment, then quality-checked for colour, clarity, and aroma before bottling or bulk supply.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROPERTIES TABLE -->
+<section style="padding:80px 0;background:var(--white);">
+  <div class="container">
+    <div class="gold-bar"></div>
+    <p class="section-label">Key Properties</p>
+    <h2 class="section-heading">What makes Marula Oil special.</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:48px;">
+      <div style="background:var(--cream);border-radius:var(--radius-md);padding:28px;border:1px solid var(--border);">
+        <div style="font-size:2rem;font-weight:900;font-family:var(--font-display);color:var(--green-deep);margin-bottom:8px;">70%+</div>
+        <div style="font-size:14px;font-weight:500;color:var(--text-dark);margin-bottom:6px;">Oleic Acid (Omega-9)</div>
+        <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">Deeply moisturising and anti-inflammatory. Helps maintain healthy skin barrier function.</div>
+      </div>
+      <div style="background:var(--cream);border-radius:var(--radius-md);padding:28px;border:1px solid var(--border);">
+        <div style="font-size:2rem;font-weight:900;font-family:var(--font-display);color:var(--green-deep);margin-bottom:8px;">4–7%</div>
+        <div style="font-size:14px;font-weight:500;color:var(--text-dark);margin-bottom:6px;">Linoleic Acid (Omega-6)</div>
+        <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">Supports skin regeneration and strengthens the epidermal layer.</div>
+      </div>
+      <div style="background:var(--cream);border-radius:var(--radius-md);padding:28px;border:1px solid var(--border);">
+        <div style="font-size:2rem;font-weight:900;font-family:var(--font-display);color:var(--green-deep);margin-bottom:8px;">High</div>
+        <div style="font-size:14px;font-weight:500;color:var(--text-dark);margin-bottom:6px;">Antioxidant Content</div>
+        <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">Rich in Vitamin C and phenolic compounds that fight free radicals and slow cellular aging.</div>
+      </div>
+      <div style="background:var(--cream);border-radius:var(--radius-md);padding:28px;border:1px solid var(--border);">
+        <div style="font-size:2rem;font-weight:900;font-family:var(--font-display);color:var(--green-deep);margin-bottom:8px;">100%</div>
+        <div style="font-size:14px;font-weight:500;color:var(--text-dark);margin-bottom:6px;">Natural &amp; Unrefined</div>
+        <div style="font-size:13px;color:var(--text-muted);line-height:1.6;">No preservatives, no synthetics, no heat treatment. Pure as nature intended.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<div class="marula-cta-strip">
+  <div class="container">
+    <h2>Ready to stock Namibian Marula Oil?</h2>
+    <p>We supply wholesale to cosmetic manufacturers, food producers, retailers, and exporters. Contact us for pricing and bulk availability.</p>
+    <a href="contact.html" class="btn-dark">Get Wholesale Pricing →</a>
+  </div>
+</div>
 
 <!-- FOOTER -->
 <footer>
@@ -104,9 +181,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="logo-text">Shining-Light Investments CC</div>
-        <p>
-          A proudly Namibian close corporation delivering quality services across catering, cleaning, construction, production, and more since 2014.
-        </p>
+        <p>A proudly Namibian close corporation delivering quality services across catering, cleaning, construction, production, and more since 2014.</p>
       </div>
       <div class="footer-col">
         <h4>Services</h4>
@@ -116,7 +191,6 @@
           <li><a href="services.html">Animal Ear Tags</a></li>
           <li><a href="marula.html">Marula Oil</a></li>
           <li><a href="services.html">Tailoring &amp; Crocheting</a></li>
-          <li><a href="services.html">Construction</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -146,7 +220,6 @@
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 40);
   });
-
   const hamburger = document.getElementById('hamburger');
   hamburger.addEventListener('click', () => {
     const links = document.querySelector('.nav-links');

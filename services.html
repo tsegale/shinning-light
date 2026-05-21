@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services | Shining-Light Investments CC</title>
+  <title>Our Services | Shining-Light Investments CC</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
@@ -15,19 +15,16 @@
 <nav id="navbar">
   <div class="nav-inner">
     <a class="nav-logo" href="index.html">
-      <img
-        src="./assets/logo/logo.png"
-        alt="Shining-Light Investments logo"
-        onerror="this.style.display='none'"
-      />
+      <img src="./assets/logo/logo.png" alt="Shining-Light Investments CC" onerror="this.style.display='none'" />
       <div class="nav-logo-text">
         <span class="top">Shining-Light</span>
         <span class="sub">Investments CC</span>
       </div>
     </a>
     <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
       <li><a href="index.html#about">About</a></li>
-      <li><a href="services.html">Services</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
       <li><a href="gallery.html">Gallery</a></li>
       <li><a href="marula.html">Marula Oil</a></li>
       <li><a href="clients.html">Clients</a></li>
@@ -39,167 +36,157 @@
   </div>
 </nav>
 
-<!-- SERVICES -->
-<section id="services" style="padding-top:140px;">
+<!-- PAGE BANNER -->
+<div class="page-banner">
   <div class="container">
-    <div class="services-header">
-      <div>
-        <div class="gold-bar"></div>
-        <p class="section-label">What We Do</p>
-        <h2 class="section-heading">Five core service areas.</h2>
-      </div>
-      <p style="max-width:320px;font-size:14px;color:var(--text-muted);line-height:1.7;">
-        All services are custom-designed to your needs. We're proud to offer turnkey solutions across Namibia.
-      </p>
-    </div>
+    <div class="gold-bar"></div>
+    <p class="section-label">What We Do</p>
+    <h1 class="page-banner-title">Five core service areas.</h1>
+    <p class="page-banner-desc">All services are custom-designed to your requirements. We offer turnkey solutions to government ministries, NGOs, corporations, and private clients across Namibia.</p>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section">
+  <div class="container">
     <div class="services-grid">
 
-      <!-- Catering -->
+      <!-- Catering — Flagship -->
       <div class="service-card featured">
-        <img
-          src="./assets/images/39777.jpg"
-          class="service-img"
-          alt="Catering services"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-        />
-        <div class="service-img-placeholder" style="display:none;">
-          <div class="ph-icon">
-            <svg viewBox="0 0 24 24"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
-          </div>
-          <span class="ph-label">Catering Photo</span>
+        <div class="svc-cover--brand" style="height:260px;">
+          <span class="svc-brand-label">Catering &amp;<br />Restaurant</span>
         </div>
         <div class="service-body">
-          <span class="service-tag">⭐ Flagship</span>
-          <h3 class="service-name">Catering &amp; Restaurant</h3>
+          <span class="service-tag">⭐ Flagship Service</span>
+          <h2 class="service-name">Catering &amp; Restaurant</h2>
           <p class="service-desc">
-            Great food for any occasion — from 2-person coffee breaks to 500-person events. African and European cuisine, all prepared from scratch.
+            From intimate 2-person coffee breaks to large-scale 500-person events, Shining-Light provides exceptional African and European cuisine prepared fresh from scratch. We hold a 3-year catering contract with AMTA and have catered events for multiple government ministries, parastatals, and NGOs.
           </p>
-          <div class="service-items">
+          <p class="service-desc" style="margin-top:10px;">
+            Whether it's a formal state function, a corporate conference, a wedding reception, or a community gathering, our team ensures every dish is served with care and consistency.
+          </p>
+          <div class="service-items" style="margin-top:20px;">
             <span class="service-item-chip">Weddings</span>
+            <span class="service-item-chip">Government Functions</span>
             <span class="service-item-chip">Conferences</span>
             <span class="service-item-chip">Buffets</span>
-            <span class="service-item-chip">Parties</span>
-            <span class="service-item-chip">Lunch &amp; Dinner</span>
+            <span class="service-item-chip">Cocktail Parties</span>
+            <span class="service-item-chip">Breakfast &amp; Lunch</span>
+            <span class="service-item-chip">Dinner Service</span>
           </div>
         </div>
       </div>
 
       <!-- Cleaning -->
       <div class="service-card">
-        <img
-          src="./assets/images/39778.jpg"
-          class="service-img"
-          alt="Cleaning services"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-        />
-        <div class="service-img-placeholder" style="display:none;">
-          <div class="ph-icon">
-            <svg viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
-          </div>
-          <span class="ph-label">Cleaning Photo</span>
+        <div class="svc-cover--brand" style="height:260px;">
+          <span class="svc-brand-label" style="color:rgba(240,196,25,0.75);">Cleaning<br />Services</span>
         </div>
         <div class="service-body">
           <span class="service-tag">Professional</span>
-          <h3 class="service-name">Cleaning Services</h3>
+          <h2 class="service-name">Cleaning Services</h2>
           <p class="service-desc">
-            Industrial, commercial, and residential cleaning with a culture of pride in performance. Waste management, hygiene supplies and more.
+            We deliver industrial, commercial, and residential cleaning with a culture of pride in performance. Our teams are trained to maintain the highest hygiene standards and take genuine ownership of every space they service.
           </p>
-          <div class="service-items">
-            <span class="service-item-chip">Offices</span>
+          <p class="service-desc" style="margin-top:10px;">
+            Services include floor care, window cleaning, deep-cleaning, waste removal, and supply of hygiene consumables. We have cleaned for government ministry offices and have served the Ministry of Land Reform with both cleaning and stationery supply.
+          </p>
+          <div class="service-items" style="margin-top:20px;">
+            <span class="service-item-chip">Office Blocks</span>
             <span class="service-item-chip">Factories</span>
-            <span class="service-item-chip">High-rise</span>
-            <span class="service-item-chip">Waste Mgmt</span>
+            <span class="service-item-chip">High-rise Buildings</span>
+            <span class="service-item-chip">Waste Management</span>
+            <span class="service-item-chip">Hygiene Supplies</span>
+            <span class="service-item-chip">Deep Cleaning</span>
           </div>
         </div>
       </div>
 
       <!-- Tailoring -->
       <div class="service-card">
-        <img
-          src="./assets/images/39781.jpg"
-          class="service-img"
-          alt="Tailoring and crocheting"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-        />
-        <div class="service-img-placeholder" style="display:none;">
-          <div class="ph-icon">
-            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
-          </div>
-          <span class="ph-label">Tailoring Photo</span>
+        <div class="svc-cover--brand" style="height:260px;">
+          <span class="svc-brand-label" style="color:rgba(240,196,25,0.75);">Tailoring &amp;<br />Crocheting</span>
         </div>
         <div class="service-body">
           <span class="service-tag">Handcrafted</span>
-          <h3 class="service-name">Tailoring &amp; Crocheting</h3>
+          <h2 class="service-name">Tailoring &amp; Crocheting</h2>
           <p class="service-desc">
-            Custom garments, corporate wear, uniforms, and handcrafted crochet items from our stall at the Windhoek Flea Market.
+            We design and produce custom garments for individuals and organisations — from tailored corporate uniforms and staff workwear to traditional and contemporary clothing. Our handcrafted crochet range includes blankets, baby sets, and home décor items.
           </p>
-          <div class="service-items">
-            <span class="service-item-chip">Uniforms</span>
+          <p class="service-desc" style="margin-top:10px;">
+            Visit us at Stall S3 at the Windhoek Flea Market, or contact us directly for bulk corporate orders. We have supplied corporate wear for the Game Product Trust Fund.
+          </p>
+          <div class="service-items" style="margin-top:20px;">
+            <span class="service-item-chip">Staff Uniforms</span>
             <span class="service-item-chip">Corporate Wear</span>
-            <span class="service-item-chip">Blankets</span>
+            <span class="service-item-chip">Crochet Blankets</span>
             <span class="service-item-chip">Baby Clothes</span>
+            <span class="service-item-chip">Traditional Dress</span>
+            <span class="service-item-chip">Alterations</span>
           </div>
         </div>
       </div>
 
-      <!-- Animal Ear Tags -->
+      <!-- Ear Tags -->
       <div class="service-card">
-        <img
-          src="./assets/images/40911.jpg"
-          class="service-img"
-          alt="Animal ear tags"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-        />
-        <div class="service-img-placeholder" style="display:none;">
-          <div class="ph-icon">
-            <svg viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
-          </div>
-          <span class="ph-label">Ear Tags Photo</span>
+        <div class="svc-cover" style="height:260px;">
+          <img src="./assets/images/39777.jpg" alt="Customised polyurethane livestock ear tags — various colours" />
         </div>
         <div class="service-body">
           <span class="service-tag">Livestock</span>
-          <h3 class="service-name">Animal Ear Tags</h3>
+          <h2 class="service-name">Animal Ear Tags</h2>
           <p class="service-desc">
-            Customised livestock ear tags in durable polyurethane, designed for Namibia's harsh outdoor conditions. Full print &amp; supply service.
+            We supply fully customised polyurethane livestock ear tags printed with the farmer's name, farm registration number, and contact details. Our tags are designed for Namibia's demanding outdoor environment — UV-resistant, durable, and legible for the life of the animal.
           </p>
-          <div class="service-items">
-            <span class="service-item-chip">Custom Print</span>
-            <span class="service-item-chip">Polyurethane</span>
-            <span class="service-item-chip">Applicators</span>
-            <span class="service-item-chip">Cattle &amp; Goats</span>
+          <p class="service-desc" style="margin-top:10px;">
+            Available in a full range of colours and sizes to suit cattle, goats, sheep, and small stock. We supply matching applicator pins and bulk packs for commercial farms and communal farmers alike.
+          </p>
+          <div class="service-items" style="margin-top:20px;">
+            <span class="service-item-chip">Custom Name &amp; Number</span>
+            <span class="service-item-chip">All Colours Available</span>
+            <span class="service-item-chip">Polyurethane Material</span>
+            <span class="service-item-chip">Cattle</span>
+            <span class="service-item-chip">Goats &amp; Sheep</span>
+            <span class="service-item-chip">Applicator Pins</span>
+            <span class="service-item-chip">Bulk Orders</span>
           </div>
         </div>
       </div>
 
       <!-- Marula Oil -->
       <div class="service-card">
-        <img
-          src="./assets/images/40913.jpg"
-          class="service-img"
-          alt="Marula oil"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-        />
-        <div class="service-img-placeholder" style="display:none;">
-          <div class="ph-icon">
-            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10H12V2z"/><path d="M12 2a10 10 0 0 1 10 10h-10V2z"/><path d="M12 12L2.1 9.3"/></svg>
-          </div>
-          <span class="ph-label">Marula Oil Photo</span>
+        <div class="svc-cover--brand" style="height:260px;">
+          <span class="svc-brand-label" style="color:rgba(240,196,25,0.75);">Marula Oil<br />Production</span>
         </div>
         <div class="service-body">
-          <span class="service-tag">Natural</span>
-          <h3 class="service-name">Marula Oil Production</h3>
+          <span class="service-tag">Natural · 100% Namibian</span>
+          <h2 class="service-name">Marula Oil Production</h2>
           <p class="service-desc">
-            Pure, cold-pressed Marula oil extracted from Marula kernels. Rich in antioxidants, fatty acids, and Vitamin C. Used in skincare, hair care, and cooking.
+            We produce pure cold-pressed Marula oil extracted from the kernels of the Marula tree — a clear, golden-brown botanical oil celebrated across Southern Africa. Our oil is rich in antioxidants, Oleic acid, Linoleic acid, Vitamin C, and phenolic compounds.
           </p>
-          <div class="service-items">
-            <span class="service-item-chip">Skincare</span>
+          <p class="service-desc" style="margin-top:10px;">
+            Supplied wholesale to cosmetic manufacturers and food producers. We have an ongoing supply agreement with Tateii Food Producer CC and welcome enquiries from retailers and exporters.
+          </p>
+          <div class="service-items" style="margin-top:20px;">
+            <span class="service-item-chip">Cold-Pressed</span>
+            <span class="service-item-chip">Skincare Grade</span>
             <span class="service-item-chip">Hair Care</span>
-            <span class="service-item-chip">Cooking Oil</span>
-            <span class="service-item-chip">Wholesale</span>
+            <span class="service-item-chip">Culinary Use</span>
+            <span class="service-item-chip">Wholesale Supply</span>
+            <span class="service-item-chip">Export Ready</span>
           </div>
         </div>
       </div>
 
+    </div>
+
+    <!-- CTA -->
+    <div style="margin-top:60px;padding:48px;background:var(--green-pale);border-radius:var(--radius-xl);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;">
+      <div>
+        <h3 style="font-family:var(--font-display);font-size:1.6rem;font-weight:900;color:var(--text-dark);margin-bottom:8px;">Need a custom quote?</h3>
+        <p style="font-size:15px;color:var(--text-muted);line-height:1.6;">We tailor every service to your specific requirements. Reach out and let us build a solution together.</p>
+      </div>
+      <a href="contact.html" class="btn-primary" style="flex-shrink:0;">Get a Quote →</a>
     </div>
   </div>
 </section>
@@ -210,9 +197,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="logo-text">Shining-Light Investments CC</div>
-        <p>
-          A proudly Namibian close corporation delivering quality services across catering, cleaning, construction, production, and more since 2014.
-        </p>
+        <p>A proudly Namibian close corporation delivering quality services across catering, cleaning, construction, production, and more since 2014.</p>
       </div>
       <div class="footer-col">
         <h4>Services</h4>
@@ -222,7 +207,6 @@
           <li><a href="services.html">Animal Ear Tags</a></li>
           <li><a href="marula.html">Marula Oil</a></li>
           <li><a href="services.html">Tailoring &amp; Crocheting</a></li>
-          <li><a href="services.html">Construction</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -252,7 +236,6 @@
   window.addEventListener('scroll', () => {
     navbar.classList.toggle('scrolled', window.scrollY > 40);
   });
-
   const hamburger = document.getElementById('hamburger');
   hamburger.addEventListener('click', () => {
     const links = document.querySelector('.nav-links');
