@@ -5,7 +5,8 @@
       "Bash(python -c ' *)",
       "Bash(Get-ChildItem \"C:\\\\Users\\\\jammyy\\\\Desktop\\\\shinning-light\\\\assets\\\\images\")",
       "Bash(Select-Object Name, Length)",
-      "Bash(Sort-Object Name)"
+      "Bash(Sort-Object Name)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\jammyy\\\\Desktop\\\\shinning-light\\\\assets\" -Recurse -File | Where-Object { $_.Extension -match \"\\\\.\\(jpg|jpeg|png|gif|webp|svg|avif|mp4|mov|avi\\)\" } | Select-Object FullName, Length, Extension | Sort-Object FullName | Format-Table -AutoSize)"
     ]
   }
 }
